@@ -1,0 +1,55 @@
+#boxModel {
+    padding: 25px;
+    border: 2px solid red;
+    margin: 15px;
+    background-color: beige;
+}
+
+
+
+p {
+    color: sienna;
+    transition: color 0.3s ease-in, transform 2s;
+}
+
+p:hover {
+    color: gold;
+    transform:rotateZ(20deg);
+}
+
+a:active {}
+a:visited{}
+
+div {
+    /*color: blue;*/
+    border-color: black;
+    border-style: solid;
+    /*-webkit-animation-name: colorChange;*/
+    /*-webkit-animation-duration: 1s;*/
+    /*animation-iteration-count: infinite;*/
+}
+
+div p {
+    color: cyan;
+}
+
+div i {
+    font-weight: bolder;
+    animation: color ease-in 100ms;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+i, b {
+    color: fuchsia;
+}
+
+
+@keyframes colorChange {
+    0% {color: red; border-width: 1px}
+    50% {color: green; border-width: 2px}
+    100% {color: blue; border-width: 1px}
+
+}

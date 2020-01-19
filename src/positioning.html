@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+        background-color: chartreuse;
+        width: 250px;
+        height: 150px;
+    }
+
+    div.absolute {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    div.relative {
+        position: relative;
+        background-color: beige;
+        width: 150px;
+        height: 50px;
+        top:50px
+    }
+
+</style>
+<body>
+
+<div class="relative">
+    Lorem ipsum dolor sit amet
+</div>
+
+<div class="absolute">
+    <div class="relative">Test</div>
+</div>
+<p>
+    Lorem ipsum dolor sit amet, nec an suas civibus, te eruditi salutatus vel. Eos ea ullum docendi splendide, ei est
+    accumsan antiopam. Duo labitur singulis at, posse adipisci pro ad, sint prima in sed. Sea tale aliquip at, per ea
+    efficiendi voluptatibus. Et his porro aperiri noluisse.
+</p>
+
+<div class="fixed">
+
+</div>
+
+</body>
+</html>

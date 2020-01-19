@@ -1,0 +1,39 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: green;
+    font-family: "Comic Sans MS";
+}
+
+p {
+    width: 50%;
+}
+
+img {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+th {
+    background-color: white;
+    border: 1px dashed blue;
+}
+
+td {
+    border: 2px solid red !important;
+}
+
+.catName {
+    border-color: green !important;
+}
+
+ul {
+    margin-left: 250px;
+    list-style-type: circle;
+    /*list-style-image: url("https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png");*/
+}

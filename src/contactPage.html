@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <style>
+        div.content {
+            height: 150px;
+            border: dodgerblue 2px solid;
+        }
+    </style>
+</head>
+<body>
+
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2 ">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="content col-6">inner div 1</div>-->
+<!--                    <div class="content col-6">inner div 2</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2">Div2</div>-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2">Div3</div>-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2">Div4</div>-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2">Div5</div>-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2">Div6</div>-->
+<!--        <div class="content col-sm-6 col-md-3 col-lg-2 col-xl-2">Div7</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+
+
+        </div>
+        <form method="post" class="col-6 mt-3">
+
+            <div class="form-group col-12">
+                <label for="name">Your name:</label>
+                <input class="form-control" id="name" type="text" name="userName">
+            </div>
+            <div class="form-group col-12">
+                <label for="email">Email</label>
+                <input class="form-control" id="email" type="email" name="email">
+            </div>
+            <div class="form-check col-12">
+                <input class="form-check-input" type="radio" name="citySize" value="small">
+                <label class="form-check-label">small</label>
+            </div>
+            <div class="form-check col-12">
+                <input class="form-check-input" type="radio" name="citySize" value="medium">
+                <label class="form-check-label">medium</label>
+            </div>
+            <div class="form-check col-12">
+                <input class="form-check-input" type="radio" name="citySize" value="large">
+                <label class="form-check-label">large</label>
+            </div>
+            <div class="form-group col-6">
+                <input type="submit" value="Send" class="btn btn-lg btn-primary">
+            </div>
+        </form>
+
+
+    </div>
+
+
+</div>
+
+</body>
+</html>

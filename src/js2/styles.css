@@ -1,0 +1,7 @@
+.rotate {
+    transition: transform 1s;
+}
+
+.active {
+    transform: rotate(720deg);
+}
